@@ -9,9 +9,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class QuizServiceApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(QuizServiceApplication.class, args);
 	}
+
 
 
 }
